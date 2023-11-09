@@ -21,7 +21,7 @@ class Stage {
             alpha: false
         });
         this.renderer.setSize(window.innerWidth, window.innerHeight);
-        this.renderer.setClearColor('#ffffff', 1);
+        this.renderer.setClearColor('#faf0be', 1);
         this.container.appendChild(this.renderer.domElement);
 
         this.scene = new THREE.Scene();
