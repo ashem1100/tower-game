@@ -91,3 +91,34 @@ html, body {
     color: #334;
     font-size: 30px;
 }
+
+#container.playing #score, #container.resetting #score {
+    transform: translatey(0px) scale(1);
+}
+
+
+
+#container.playing #instructions {
+    opacity: 1;
+}
+#container.ready .game-ready #start-button {
+    opacity: 1;
+    transform: translatey(0);
+}
+#container.ended #score {
+    transform: translatey(6vh) scale(1.5);
+}
+
+#container.ended .game-over * {
+    opacity: 1;
+    transform: translatey(0);
+}
+#container.ended .game-over p {
+    transition-delay: 0.3s;
+}
+
+
+
+#container #instructions.hide {
+    opacity: 0 !important;
+}
