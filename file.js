@@ -1,7 +1,7 @@
 "use strict";
 console.clear();
  //codes
-
+var test;
 class Stage {
     constructor() {
 
